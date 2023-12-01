@@ -4,7 +4,7 @@ const parseInput = (rawInput: string) => rawInput;
 
 const part1 = (rawInput: string) => {
   const input = parseInput(rawInput).split('\n');
-  return input.map(findCommonLetter).map(convertToNumber).reduce((a, b) => a + b, 0);s
+  return input.map(findCommonLetter).map(convertToNumber).reduce((a, b) => a + b, 0);
 };
 
 const part2 = (rawInput: string) => {
